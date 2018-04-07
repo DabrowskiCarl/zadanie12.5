@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Title</title>
+        <title>Random quote machine</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Karol Dabrowski">
@@ -15,7 +15,20 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-
+        <main class="container">
+            <header>
+                <h1>Random quote machine</h1>
+            </header>
+            <div class="box">
+                <h2 class="quote"></h2>
+                <h3 class="author"></h3>
+            </div>
+            <div>
+                <button class="trigger btn btn-primary"> Random quote </button>
+                <a href="#" target="_blank" class="tweet">
+                    <i class="fa fa-lg fa-twitter"></i> Tweet</a>
+            </div>
+        </main>
         <!-- Scripts -->
         
         <script src="vendor/modernizr-3.5.0.min.js"></script>
@@ -23,13 +36,5 @@
         <script>window.jQuery || document.write('<script src="vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
-        
-        
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
 </html>
